@@ -1104,7 +1104,7 @@ void o2::aod::dqhistograms::DefineHistograms(HistogramManager* hm, const char* h
       }
       if (subGroupStr.Contains("dimuon-polarization-vp")) {
         int varspTVP[4] = {VarManager::kMass, VarManager::kPt, VarManager::kCosPhiVP, VarManager::kPhiVP};
-        int varsrapVP[4] = {VarManager::kMass, VarManager::kRap,  VarManager::kCosPhiVP, VarManager::kPhiVP};
+        int varsrapVP[4] = {VarManager::kMass, VarManager::kRap, VarManager::kCosPhiVP, VarManager::kPhiVP};
         int binspT[4] = {100, 20, 24, 24};
         int binsy[4] = {100, 10, 24, 24};
         double xminpT[4] = {1., 0., -1., 0.};
